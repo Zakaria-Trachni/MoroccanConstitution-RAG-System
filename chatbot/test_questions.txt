@@ -1,0 +1,21 @@
+questions = [
+    ("What type of government does Morocco have according to its Constitution?", 1),
+    ("Who holds the sovereignty in Morocco and how is it exercised?", 2),
+    ("What is the official religion of the Moroccan State, and what freedom does it guarantee?", 3),
+    ("What are the official languages of Morocco, and how is their promotion handled?", 5),
+    ("What does the Constitution say about equality before the law?", 6),
+    ("What are the legal requirements for forming a political party in Morocco?", 7),
+    ("Can political parties in Morocco be based on religious or ethnic grounds?", 7),
+    ("What rights do union organizations and employers' associations have?", 8),
+    ("Can the government dissolve political parties or unions without judicial decision?", 9),
+    ("What rights are guaranteed to the parliamentary opposition?", 10),
+    ("What principles must Moroccan elections uphold?", 11),
+    ("What is the role of civil society associations in public affairs?", 12),
+    ("Can Moroccan citizens propose legislative motions?", 14),
+    ("What rights do Moroccan citizens have regarding petitions?", 15),
+    ("How does Morocco protect the rights of its citizens living abroad?", 16),
+    ("Do Moroccans abroad have the right to vote and run for office?", 17),
+    ("How are Moroccans abroad involved in consultative institutions?", 18),
+    ("What is the Moroccan State's position on gender equality?", 19),
+    ("Which right is recognized as the first right of every human being?", 20)
+]

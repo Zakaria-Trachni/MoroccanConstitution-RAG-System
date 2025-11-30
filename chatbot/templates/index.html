@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morocco Constitution Q&A</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="header-content">
+                <img src="{{ url_for('static', filename='img/morocco-flag.png') }}" alt="Morocco Flag" class="flag-icon">
+                <h1>Morocco Constitution Q&A</h1>
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                        <option value="ar">العربية</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message system">
+                        <div class="message-content">
+                            <p>Welcome to the Morocco Constitution Q&A system. Ask any question about the Constitution of Morocco, and I'll try to provide you with accurate information.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="suggestions-container" id="suggestions-container">
+                    <h3>Suggested Questions</h3>
+                    <div class="suggestions" id="suggestions"></div>
+                </div>
+                
+                <div class="chat-input">
+                    <form id="question-form">
+                        <input type="text" id="question-input" placeholder="Ask a question about the Moroccan Constitution...">
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Interactive Question-Answer System for the Constitution of Morocco &copy; 2025</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
